@@ -16,9 +16,8 @@
 <img width="1512" alt="Screenshot 2024-07-26 at 10 28 12 PM" src="https://github.com/user-attachments/assets/12feb357-7640-429c-8ca5-58155ac7a945">
 
 در مرحله بعدی نتایج را به صورت یک گزارش html اکسپورت می‌کنیم:
+<img width="702" alt="Screenshot 2024-07-29 at 6 40 10 PM" src="https://github.com/user-attachments/assets/de0ab644-6354-4c52-b04a-4593301b36db">
 
-<img width="624" alt="Screenshot 2024-07-26 at 10 36 16 PM" src="https://github.com/user-attachments/assets/b641ba93-dac4-49c5-9aa6-22a479e014c0">
-<img width="608" alt="Screenshot 2024-07-26 at 10 37 02 PM" src="https://github.com/user-attachments/assets/421ce56c-08de-4425-8d6c-ecae50df8221">
 
 همان طور که در دستور آزمایش نیز مشخص شده می‌توانیم گزارش و همچنین خطوط پوشش داده شده را با رنگ سبز و پوشش داده نشده را با رنگ قرمز مشاهده کنیم:
 
