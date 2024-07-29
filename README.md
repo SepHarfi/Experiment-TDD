@@ -58,6 +58,30 @@
 
 
 ### زیربخش دوم
+در ابتدا تعدادی تست برای چک کردن نیازهای توابع مشخص شده می‌نویسم. در این تست‌ها هم چک می‌کنیم که اگر تایپ مناسب نبود null برگردانده شود (که با توجه به تابع اولیه این تست‌ برای دو تابع پاس خواهد شد) و همچنین تست‌هایی برای چک کردن عملکرد برگرداندن بر اساس کلید‌های مشخص شده می‌نویسیم:
+<img width="791" alt="Screenshot 2024-07-29 at 8 48 11 AM" src="https://github.com/user-attachments/assets/d98bb393-e33d-4b9e-90a5-6de53cb562e3">
+
+<img width="927" alt="Screenshot 2024-07-29 at 8 49 40 AM" src="https://github.com/user-attachments/assets/65ca6bd3-4b6b-48d4-aa07-70bcd3c0c53d">
+
+<img width="984" alt="Screenshot 2024-07-29 at 8 49 57 AM" src="https://github.com/user-attachments/assets/2c80728d-55e2-49a8-bb2e-1011a2deb2f1">
+
+<img width="967" alt="Screenshot 2024-07-29 at 8 50 04 AM" src="https://github.com/user-attachments/assets/bb553c20-ae7c-46b1-8bcf-6112080d7c41">
+
+
+حال فایل تست را ران خواهیم کرد تا عملکرد را مشاهده کنیم و همان طور که انتظار میرفت تنها تست‌های مربوط به چک کردن null در صورت تایپ نامعتبر پاس می‌شوند:
+
+<img width="276" alt="Screenshot 2024-07-29 at 8 51 12 AM" src="https://github.com/user-attachments/assets/9286e0dd-dfc7-4d38-bfd2-f58a9513d913">
+
+حالا با توجه به نیازمندی تست‌ها توابعمان را تکمیل می‌کنیم:
+<img width="1013" alt="Screenshot 2024-07-29 at 9 00 52 AM" src="https://github.com/user-attachments/assets/8272d5b2-9852-43e4-8323-daeaf21ea35e">
+<img width="939" alt="Screenshot 2024-07-29 at 9 01 31 AM" src="https://github.com/user-attachments/assets/71a857a3-47b4-46d9-92e4-8154550f817d">
+
+حالا که توابع ما تکمیل شدند تست‌ها را دوباره ران می‌کنیم و میبینیم که به درستی پاس می‌شوند:
+
+<img width="280" alt="Screenshot 2024-07-29 at 8 54 09 AM" src="https://github.com/user-attachments/assets/0961ad60-5818-4425-a10b-350624b21ece">
+
+
+
 
 ## پرسش‌ها
 ### پرسش اول
