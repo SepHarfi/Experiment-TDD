@@ -205,4 +205,21 @@ public class LibraryTest {
         assertEquals(expectedOutput, outContent.toString());
     }
 
+    @Test
+    public void displayLibraryStudent() {
+        Library library = new Library();
+
+        Student student = new Student("Sepehr", 1);
+        library.addStudent(student);
+
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        library.displayStudents();
+
+        System.setOut(System.out);
+
+        String expectedOutput  = "Registered students:\n" + "Sepehr|1\n";
+        assertEquals(expectedOutput, outContent.toString());
+    }
 }
