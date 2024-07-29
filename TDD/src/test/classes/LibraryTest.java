@@ -182,4 +182,27 @@ public class LibraryTest {
         assertEquals(expectedOutput, outContent.toString());
     }
 
+    @Test
+    public void displayStudentBook() {
+        Library library = new Library();
+
+        Book book = new Book("Book", "MMV", 1);
+        library.addBook(book);
+
+        Student student = new Student("Sepehr", 1);
+        library.addStudent(student);
+
+        library.lendBook(book, student);
+
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        student.displayBooks();
+
+        System.setOut(System.out);
+
+        String expectedOutput  = "Sepehr|1 has these books:\n" + "Book by MMV\n";
+        assertEquals(expectedOutput, outContent.toString());
+    }
+
 }
