@@ -80,7 +80,24 @@ public class Library {
      * @return             The list of students that match the search criteria. Returns null if search type is title or author.
      */
     public ArrayList<Student> searchStudents(SearchByType searchByType, ArrayList<Object> keys) {
-        // TODO complete function
+        if (searchByType == SearchByType.ID) {
+            ArrayList<Student> result = new ArrayList<>();
+            for (Student student : students) {
+                if (keys.contains(student.getId())) {
+                    result.add(student);
+                }
+            }
+            return result;
+        } else if (searchByType == SearchByType.NAME) {
+            ArrayList<Student> result = new ArrayList<>();
+            for (Student student : students) {
+                if (keys.contains(student.getName())) {
+                    result.add(student);
+                }
+            }
+            return result;
+        }
+
         return null;
     }
 
@@ -93,7 +110,32 @@ public class Library {
      * @return             The list of books that match the search criteria. Returns null if search type is name.
      */
     public ArrayList<Book> searchBooks(SearchByType searchByType, ArrayList<Object> keys) {
-        // TODO complete function
+        if (searchByType == SearchByType.ID) {
+            ArrayList<Book> result = new ArrayList<>();
+            for (Book book : books) {
+                if (keys.contains(book.getId())) {
+                    result.add(book);
+                }
+            }
+            return result;
+        } else if (searchByType == SearchByType.TITLE) {
+            ArrayList<Book> result = new ArrayList<>();
+            for (Book book : books) {
+                if (keys.contains(book.getTitle())) {
+                    result.add(book);
+                }
+            }
+            return result;
+        } else if (searchByType == SearchByType.AUTHOR) {
+            ArrayList<Book> result = new ArrayList<>();
+            for (Book book : books) {
+                if (keys.contains(book.getAuthor())) {
+                    result.add(book);
+                }
+            }
+            return result;
+        }
+
         return null;
     }
 

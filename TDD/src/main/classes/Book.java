@@ -19,6 +19,9 @@ public class Book {
         return author;
     }
 
+    public int getId() {
+        return id;
+    }
     @Override
     public String toString() {
         return title + " by " + author;
