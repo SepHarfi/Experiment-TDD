@@ -3,6 +3,8 @@ package test.classes;
 import main.classes.*;
 import org.junit.Test;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -159,5 +161,25 @@ public class LibraryTest {
         assertEquals(new ArrayList<>(Arrays.asList(book2, book3)), library.searchBooks(SearchByType.AUTHOR, keys));
     }
 
+    
+    @Test
+    public void displayLibraryBook() {
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        Library library = new Library();
+
+        Book book = new Book("Book", "MMV", 1);
+        library.addBook(book);
+
+        Student student = new Student("Sepehr", 1);
+        library.addStudent(student);
+
+        library.displayBooks();
+
+        System.setOut(System.out);
+
+        String expectedOutput  = "Available books in library:\n" + "Book by MMV\n";
+        assertEquals(expectedOutput, outContent.toString());
+    }
 
 }
