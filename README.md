@@ -122,4 +122,9 @@
 - **Acceptance Testing**: انجام تست‌ها با هدف اطمینان از رفع نیازهای کاربران نهایی و ذی‌نفعان پروژه.
   
 ### پرسش سوم
+دقیقا همانند پروژه‌ی json-simple فایل تستمان را با coverage ران می‌کنیم و به نتایج زیر می‌رسیم:
+<img width="1454" alt="Screenshot 2024-07-29 at 6 23 51 PM" src="https://github.com/user-attachments/assets/e22dc07d-40c0-4311-9781-e2b7466fc074">
+
+<img width="1512" alt="Screenshot 2024-07-29 at 6 24 05 PM" src="https://github.com/user-attachments/assets/0669329d-a7f8-498f-9aa6-1a7ebdc6d76e">
+
 ### پرسش چهارم
