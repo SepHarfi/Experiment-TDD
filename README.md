@@ -126,4 +126,8 @@
 
 <img width="1512" alt="Screenshot 2024-07-29 at 6 35 45 PM" src="https://github.com/user-attachments/assets/3d0c7d3b-b7ec-4f6f-945c-5f69af685b3a">
 
-### پرسش چهارم
+###پرسش چهارم
+
+حال Run All Tests with Coverage را می‌زنیم و نتیجه به شکل زیر شده است:
+
+<img width="1512" alt="Screenshot 2024-07-29 at 7 26 13 PM" src="https://github.com/user-attachments/assets/d320c379-ca39-4a83-b02e-443cc1e99a78">
