@@ -125,6 +125,6 @@
 همانطور که گفته شده Run All Tests with Coverage را انتخاب می‌کنیم و به نتایج زیر می‌رسیم:
 <img width="1512" alt="Screenshot 2024-07-29 at 6 32 33 PM" src="https://github.com/user-attachments/assets/9930944b-b429-4ad6-9781-f3d171515637">
 
-<img width="1512" alt="Screenshot 2024-07-29 at 6 32 39 PM" src="https://github.com/user-attachments/assets/11ad0e54-fb4f-479c-88e4-2f9032746bb0">
+<img width="1512" alt="Screenshot 2024-07-29 at 6 35 45 PM" src="https://github.com/user-attachments/assets/3d0c7d3b-b7ec-4f6f-945c-5f69af685b3a">
 
 ### پرسش چهارم
